@@ -19,7 +19,7 @@ import { defineConfig } from "drizzle-kit";
 //   - migrate: Better for production, creates versioned migration files
 // =============================================================================
 
-config({path: "./env.local"});
+config({path: './env.local'});
 
 export default defineConfig({
   out: "./drizzle",
